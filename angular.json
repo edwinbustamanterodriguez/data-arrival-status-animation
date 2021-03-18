@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "data-arrival-status-animation"
+  "defaultProject": "data-arrival-status-animation",
+  "cli": {
+    "analytics": false
+  }
 }

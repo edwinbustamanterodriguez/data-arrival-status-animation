@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DataArrivalStatusAnimationComponent } from './data-arrival-status-animation/data-arrival-status-animation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataArrivalStatusAnimationComponent
   ],
   imports: [
     BrowserModule,

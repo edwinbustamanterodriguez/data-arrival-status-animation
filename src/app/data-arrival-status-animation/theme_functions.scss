@@ -1,0 +1,15 @@
+// default colors
+.theme-wrapper {
+  --backgroundAnimationColor: #abdbe3;
+  --animationColor: #063970;
+}
+
+$variables: (
+  --animationColor: var(--animationColor),
+  --backgroundAnimationColor:var(--backgroundAnimationColor),
+);
+
+
+@function var($variable) {
+  @return map-get($variables, $variable);
+}
